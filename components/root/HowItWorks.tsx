@@ -2,17 +2,17 @@ import { CalendarCheck, CalendarCheckIcon, CalendarDaysIcon, Check, Search, Squa
 
 const HowItWorks = () => {
   return (
-    <div className='py-12 px-4 bg-slate-800'>
+    <div className='py-20 px-4 bg-gray-100 dark:bg-slate-800'>
       <div className='max-w-7xl mx-auto'>
         <p className='text-center'>Howit works</p>
-        <p className='text-3xl text-center'>
+        <p className='text-3xl text-center font-semibold'>
           4 easy steps to get your solution
         </p>
-        <div className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-8'>
-          <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-900 flex-shrink-0 rounded-2xl'>
-              <Search />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 bg-slate-800 rounded-full'>
+        <div className='mt-12 grid grid-cols-1 md:grid-cols-2 gap-8'>
+          <div className=' flex gap-4'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+              <Search className='text-blue-500 w-10 h-10' />
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
                 1
               </div>
             </div>
@@ -30,9 +30,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-900 flex-shrink-0 rounded-2xl'>
-              <CalendarDaysIcon />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 bg-slate-800 rounded-full'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+              <CalendarDaysIcon className='text-blue-500 w-10 h-10' />
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
                 2
               </div>
             </div>
@@ -50,9 +50,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-900 flex-shrink-0 rounded-2xl'>
-              <CalendarCheck />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 bg-slate-800 rounded-full'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+              <CalendarCheck className='text-blue-500 w-10 h-10' />
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
                 3
               </div>
             </div>
@@ -70,9 +70,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-900 flex-shrink-0 rounded-2xl'>
-              <SquareCheckBigIcon />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 bg-slate-800 rounded-full'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+              <SquareCheckBigIcon className='text-blue-500 w-10 h-10' />
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
                 4
               </div>
             </div>
