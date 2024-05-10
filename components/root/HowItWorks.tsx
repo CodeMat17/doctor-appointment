@@ -10,9 +10,9 @@ const HowItWorks = () => {
         </p>
         <div className='mt-12 grid grid-cols-1 md:grid-cols-2 gap-8'>
           <div className=' flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl shadow-md shadow-blue-400'>
               <Search className='text-blue-500 w-10 h-10' />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-blue-600 bg-gray-100 dark:bg-slate-800 rounded-full'>
                 1
               </div>
             </div>
@@ -30,9 +30,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl shadow-md shadow-blue-400'>
               <CalendarDaysIcon className='text-blue-500 w-10 h-10' />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-blue-600 bg-gray-100 dark:bg-slate-800 rounded-full'>
                 2
               </div>
             </div>
@@ -50,9 +50,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl shadow-md shadow-blue-400'>
               <CalendarCheck className='text-blue-500 w-10 h-10' />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-blue-600 bg-gray-100 dark:bg-slate-800 rounded-full'>
                 3
               </div>
             </div>
@@ -70,9 +70,9 @@ const HowItWorks = () => {
           </div>
 
           <div className='border flex gap-4'>
-            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl'>
+            <div className='relative flex items-center justify-center  w-[120px]  aspect-square bg-slate-300 dark:bg-slate-900 flex-shrink-0 rounded-2xl shadow-md shadow-blue-400'>
               <SquareCheckBigIcon className='text-blue-500 w-10 h-10' />
-              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-white bg-blue-600 dark:bg-slate-800 rounded-full'>
+              <div className='absolute -top-4 left-0 flex items-center justify-center w-14 h-14 text-blue-600 bg-gray-100 dark:bg-slate-800 rounded-full'>
                 4
               </div>
             </div>
