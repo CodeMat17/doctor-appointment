@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type SimpleImageProps = {
   href: string;
   Alt: string;
@@ -53,7 +55,7 @@ const SingleImage = ({ href, imgSrc, Alt }: SimpleImageProps) => {
       <a
         href={href}
         className='mx-4 flex w-[150px] items-center justify-center  2xl:w-[180px]'>
-        <img src={imgSrc} alt={Alt} className='w-full h-10' />
+        <Image priority src={imgSrc} alt={Alt} width={40} height={40} className='w-full h-10' />
       </a>
     </>
   );
